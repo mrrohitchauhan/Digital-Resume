@@ -24,14 +24,19 @@ const Header = ({ data }) => {
           <h2 data-aos="fade-up">
             Based in {city}. <span>{occupation}</span>. {description}
           </h2>
-          <a
+          <p className="scrolldown">
+            <a className="smoothscroll" href="#about">
+              <i className="bx bxs-chevron-down-circle"></i>
+            </a>
+          </p>
+          {/* <a
             data-aos="fade-up"
             data-aos-delay="200"
             href="#about"
             className="btn-get-started scrollto"
           >
             Get Started
-          </a>
+          </a> */}
         </div>
       </section>
       <header id="header" className="d-flex align-items-center">
@@ -39,7 +44,7 @@ const Header = ({ data }) => {
         <div className="container d-flex align-items-center justify-content-between">
           <div className="logo">
             <a href="#">
-              <img src="./img/logo.png" alt="" className="img-fluid" />
+              <img src="./img/small-logo.png" alt="" className="img-fluid" />
             </a>
           </div>
 
@@ -67,7 +72,7 @@ const Header = ({ data }) => {
               </li>
               <li>
                 <a className="nav-link scrollto " href="#portfolio">
-                  Works
+                  Portfolio
                 </a>
               </li>
               {/* <li>

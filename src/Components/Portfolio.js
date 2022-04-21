@@ -8,25 +8,25 @@ const Portfolio = ({ data }) => {
 
   return (
     <section id="portfolio" className="portfolio">
-      <div className="container">
-        <div className="section-title" data-aos="fade-up">
-          <h2>Portfolio</h2>
-          <p>CHECK OUT SOME OF MY WORKS</p>
-        </div>
-
-        <div className="row" data-aos="fade-up" data-aos-delay="100">
-          <div className="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" className="filter-active">
-                All
-              </li>
-              <li data-filter=".web-app">Web App</li>
-              <li data-filter=".mobile-app">Mobile App</li>
-              {/* <li data-filter=".filter-web">Web</li> */}
-            </ul>
+      {data && (
+        <div className="container">
+          <div className="section-title" data-aos="fade-up">
+            <h2>Portfolio</h2>
+            <p>CHECK OUT SOME OF MY WORKS</p>
           </div>
-        </div>
-        {data && (
+          <div className="row" data-aos="fade-up" data-aos-delay="200">
+            <div className="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" className="filter-active">
+                  All
+                </li>
+                <li data-filter=".web-app">Web App</li>
+                <li data-filter=".mobile-app">Mobile App</li>
+                {/* <li data-filter=".filter-web">Web</li> */}
+              </ul>
+            </div>
+          </div>
+
           <div
             className="row portfolio-container"
             data-aos="fade-up"
@@ -60,7 +60,7 @@ const Portfolio = ({ data }) => {
                           className="portfolio-lightbox"
                           title={x.name}
                         >
-                          <i className="bx bx-plus"></i>
+                          <i className="bx bx-show"></i>
                         </a>
                       )}
                     </div>
@@ -69,8 +69,8 @@ const Portfolio = ({ data }) => {
               </div>
             ))}
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </section>
   );
 };

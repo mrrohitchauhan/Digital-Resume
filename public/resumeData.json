@@ -3,16 +3,16 @@
     "name": "Rohit Chauhan",
     "occupation": "Application Developer",
     "description": "I eat, sleep and breathe codes😉",
-    "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
+    "image": "profilepic.png",
+    "bio": " Hi there! I am Rohit! I've been coding for over 4 years now. As a Full Stack developer, I've worked both with startups and large corporations to help build & scale their companies. I have also work on REAL WORLD projects for multiple clients as freelancer. Now I am working with Neosoft Technologies as Application Developer since 5 months.",
     "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
     "email": "imchauhanrohit@gmail.com",
     "phone": "+91 913 742 6703",
     "address": {
-      "street": "123 Dev Lane",
+      "street": "Durga Apt, Goddev Navghar Road, Bhayander (E).",
       "city": "Mumbai",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
+      "state": "Maharashtra",
+      "zip": "Thane - 401105"
     },
     "website": "https://www.papareact.com/course",
     "resumedownload": "http://papareact.com",
@@ -20,17 +20,17 @@
       {
         "name": "Github",
         "url": "https://www.github.com/mrrohitchauhan",
-        "className": "fa fa-github"
+        "class": "bx bxl-github"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/rohit-chauhan-934726213",
-        "className": "fa fa-linkedin"
+        "class": "bx bxl-linkedin"
       },
       {
         "name": "instagram",
         "url": "https://www.instagram.com/thisisrohitchauhan/",
-        "className": "fa fa-instagram"
+        "class": "bx bxl-instagram"
       }
     ]
   },
@@ -50,28 +50,6 @@
         "title": "Founder and CEO",
         "years": "May 2019 - Present",
         "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
-      }
-    ],
-    "skills": [
-      {
-        "name": "ReactJs",
-        "level": "100%"
-      },
-      {
-        "name": "Python",
-        "level": "85%"
-      },
-      {
-        "name": "Git",
-        "level": "70%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "99%"
-      },
-      {
-        "name": "Web Development",
-        "level": "95%"
       }
     ]
   },
@@ -235,7 +213,7 @@
       "experience": "4 Months"
     },
     {
-      "name": "Anvitech Solutions LLP.",
+      "name": "Anvitech Solutions LLP",
       "url": "https://www.anvitechsolutions.com/",
       "location": "Malad, India",
       "experience": "3 Years"
