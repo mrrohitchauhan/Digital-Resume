@@ -2,81 +2,89 @@ import React from "react";
 import TypeWriter from "react-typewriter";
 import Particle from "./Particle";
 
-
 const Header = ({ data }) => {
   if (data) {
     var name = data.name;
     var occupation = data.occupation;
     var description = data.description;
     var city = data.address.city;
-    var networks = data.social.map(function (network) {
-      return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
-          </a>
-        </li>
-      );
-    });
   }
 
   return (
     <>
-      <header className="header" id="header">
-        <Particle />
-        <div className="container">
-          <figure className="logo animated fadeInDown delay-07s">
-            <a href="#">
-              <img src="img/ajansalogoi.png" alt="" />
-            </a>
-          </figure>
-          <h1 className="animated fadeInDown delay-07s">
+      <section id="hero">
+        <div className="hero-container">
+          <a href="#" className="hero-logo" data-aos="zoom-in">
+            <img src="./img/hero-logo.png" alt="" />
+          </a>
+          {/* <h1 data-aos="zoom-in">Welcome To Knight Studios</h1> */}
+          <h1 data-aos="zoom-in" className="animated fadeInDown delay-07s">
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
-          <ul className="we-create animated fadeInUp delay-1s">
-            <li>
-              Based in {city}. <span>{occupation}</span>. {description}
-            </li>
-          </ul>
-        </div>
-        <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
-            <i className="icon-down-circle"></i>
+          <h2 data-aos="fade-up">
+            Based in {city}. <span>{occupation}</span>. {description}
+          </h2>
+          <a
+            data-aos="fade-up"
+            data-aos-delay="200"
+            href="#about"
+            className="btn-get-started scrollto"
+          >
+            Get Started
           </a>
-        </p>
+        </div>
+      </section>
+      <header id="header" className="d-flex align-items-center">
+        {/* <Particle /> */}
+        <div className="container d-flex align-items-center justify-content-between">
+          <div className="logo">
+            <a href="#">
+              <img src="./img/logo.png" alt="" className="img-fluid" />
+            </a>
+          </div>
+
+          <nav id="navbar" className="navbar">
+            <ul>
+              <li>
+                <a className="nav-link scrollto active" href="#hero">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a className="nav-link scrollto" href="#about">
+                  About
+                </a>
+              </li>
+              <li>
+                <a className="nav-link scrollto" href="#skills">
+                  Competences
+                </a>
+              </li>
+              <li>
+                <a className="nav-link scrollto" href="#firm">
+                  Firms
+                </a>
+              </li>
+              <li>
+                <a className="nav-link scrollto " href="#portfolio">
+                  Works
+                </a>
+              </li>
+              {/* <li>
+                <a className="nav-link scrollto" href="#team">
+                  Team
+                </a>
+              </li>
+              <li>
+                <a className="nav-link scrollto" href="#contact">
+                  Contact
+                </a>
+              </li> */}
+            </ul>
+            <i className="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+        </div>
       </header>
-      <nav className="main-nav-outer nav-wrap" id="test">
-        <div className="container">
-          <ul className="main-nav">
-            <li>
-              <a href="#header">Home</a>
-            </li>
-            <li>
-              <a href="#firm">Firms</a>
-            </li>
-            <li>
-              <a href="#Portfolio">Works</a>
-            </li>
-            <li className="small-logo">
-              <a href="#header">
-                <img src="img/ajansalogo.png" alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#team">Team</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-          <a className="res-nav_click" href="#">
-            <i className="fa fa-bars"></i>
-          </a>
-        </div>
-      </nav>
     </>
   );
 };

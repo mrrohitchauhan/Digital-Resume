@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import Firms from "./Components/Firms";
 import Skills from "./Components/Skills";
 import Portfolio from "./Components/Portfolio";
+import About from "./Components/About";
 
 import "./App.css";
 
@@ -16,14 +17,21 @@ const App = () => {
       .then((res) => res.json())
       .then((data) => {
         setResumeData(data);
+        const script = document.createElement("script");
+
+        script.src = "./js/main.js";
+        script.async = true;
+
+        document.body.appendChild(script);
       });
   }, []);
 
   return (
     <div className="App">
       <Header data={resumeData.main} />
-      <Firms data={resumeData.firms} />
+      <About data={resumeData.main} />
       <Skills data={resumeData.skills} />
+      <Firms data={resumeData.firms} />
       <Portfolio data={resumeData.portfolio} />
       <Footer data={resumeData.main} />
     </div>

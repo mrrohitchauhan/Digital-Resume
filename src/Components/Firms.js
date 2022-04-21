@@ -2,41 +2,37 @@ import React from "react";
 
 const Firms = ({ data }) => {
   return (
-    <section class="main-section" id="firm">
-      <div class="container">
-        <h2>Firms</h2>
-        <h6>Compaines i worked with</h6>
-        <div class="row">
-          <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+    <section id="firm" className="firm">
+      <div className="container">
+        <div className="section-title" data-aos="fade-up">
+          <h2>Professional affiliations</h2>
+          {/* <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p> */}
+        </div>
+
+        <div className="row">
+          <div className="col-lg-6 order-2 order-lg-1">
             {data &&
               data.map((x, i) => (
-                <div class="firm-list">
-                  <div class="firm-list-col1">
-                    <i class="fa fa-building-o"></i>
-                  </div>
-                  <div class="firm-list-col2">
-                    <h3>{x.name}</h3>
-                    <p>
-                      <i class="fa fa-map-marker"></i>
-                      {x.location}
-                    </p>
-                    <p>
-                      <i class="fa fa-calendar"></i>
-                      {x.experience}
-                    </p>
-                    <p>
-                      <i class="fa fa-link"></i>
-                      <a href={x.url} alt={x.name} target="_blank">
-                        {x.url}
-                      </a>
-                    </p>
-                  </div>
+                <div className="icon-box mt-5 mt-lg-0" data-aos="fade-up" key={i}>
+                  <i className="bx bx-receipt main"></i>
+                  <h4>{x.name}</h4>
+                  <p>
+                    <i className="bx bx-current-location"></i>
+                    {x.location}
+                  </p>
+                  <p>
+                    <i className="bx bxs-calendar"></i>
+                    {x.experience}
+                  </p>
                 </div>
               ))}
           </div>
-          <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
-            <img src="img/macbook-pro.png" alt="" />
-          </figure>
+          <div
+            className="image col-lg-6 order-1 order-lg-2"
+            style={{ backgroundImage: `url("./img/services.jpg")` }}
+            data-aos="fade-left"
+            data-aos-delay="100"
+          ></div>
         </div>
       </div>
     </section>

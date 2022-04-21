@@ -133,7 +133,8 @@
       "class": "mobile-app",
       "tech": "Angular, Ionic, C#",
       "desc": "",
-      "image": "iFeedback.jpg"
+      "image": "iFeedback.jpg",
+      "url": ""
     },
     {
       "name": "TIA",
@@ -142,7 +143,8 @@
       "class": "mobile-app",
       "tech": "Ionic, Angular, C#, Azure",
       "desc": "",
-      "image": "tia.jpeg"
+      "image": "tia.jpeg",
+      "url": ""
     },
     {
       "name": "ILearn",
