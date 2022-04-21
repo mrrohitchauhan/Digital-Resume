@@ -35,7 +35,7 @@ const Header = ({ data }) => {
           </h1>
           <ul className="we-create animated fadeInUp delay-1s">
             <li>
-              Based in {city}. <span>{occupation}</span>. {description}.
+              Based in {city}. <span>{occupation}</span>. {description}
             </li>
           </ul>
         </div>
