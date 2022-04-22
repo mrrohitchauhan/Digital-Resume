@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const ProjectDetails = () => {
   let { id } = useParams();
   const [portfolioData, setPorfolioData] = useState({});
-
+  const [name, setName] = useState("");
   useEffect(() => {
     fetch("/resumeData.json")
       .then((res) => res.json())
       .then((data) => {
         setPorfolioData(data.portfolio.find((portfolio) => portfolio.id == id));
-
+        setName(data.main.name);
         const script = document.createElement("script");
         script.src = "/js/main.js";
         script.async = true;
@@ -91,6 +92,7 @@ const ProjectDetails = () => {
           </div>
         </section>
       )}
+      <Footer data={name && name} />
     </main>
   );
 };

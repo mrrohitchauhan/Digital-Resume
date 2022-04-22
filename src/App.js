@@ -10,7 +10,7 @@ import About from "./Components/About";
 import "./App.css";
 
 const App = () => {
-  const [resumeData, setResumeData] = useState({});
+  const [resumeData, setResumeData] = useState(null);
 
   useEffect(() => {
     fetch("resumeData.json")
@@ -27,14 +27,18 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App">
-      <Header data={resumeData.main} />
-      <About data={resumeData.main} />
-      <Skills data={resumeData.skills} />
-      <Firms data={resumeData.firms} />
-      <Portfolio data={resumeData.portfolio} />
-      <Footer data={resumeData.main} />
-    </div>
+    <>
+      {resumeData && (
+        <div className="App">
+          <Header data={resumeData.main} />
+          <About data={resumeData.main} />
+          <Skills data={resumeData.skills} />
+          <Firms data={resumeData.firms} />
+          <Portfolio data={resumeData.portfolio} />
+          <Footer data={resumeData.main.name} />
+        </div>
+      )}
+    </>
   );
 };
 

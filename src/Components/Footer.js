@@ -7,7 +7,7 @@ const Footer = ({ data }) => {
         <div className="copyright">
           &copy; Copyright{" "}
           <strong>
-            <span>Rohit Chauhan</span>
+            <span>{data}</span>
           </strong>
           . All Rights Reserved
         </div>

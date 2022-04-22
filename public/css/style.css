@@ -881,7 +881,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
@@ -1439,6 +1439,7 @@ section {
   color: #fff;
   font-size: 14px;
   position: relative;
+  line-height: 50px;
 }
 #about::before {
   content: "";
