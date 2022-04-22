@@ -21,8 +21,9 @@ const App = () => {
         const script = document.createElement("script");
         script.src = "/js/main.js";
         script.async = true;
-
-        document.body.appendChild(script);
+        setInterval(() => {
+          document.body.appendChild(script);
+        }, 1000);
       });
   }, []);
 
