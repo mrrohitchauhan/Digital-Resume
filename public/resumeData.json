@@ -55,104 +55,140 @@
   },
   "portfolio": [
     {
+      "id": "23dseifj234",
       "name": "Angie & Viks",
       "type": "Web App",
       "domain": "Web App",
       "class": "web-app",
       "tech": "Next.js, Node.js, MongoDB",
-      "desc": "",
-      "image": "angie-viks.png",
-      "url": "https://main--boring-keller-0a156b.netlify.app/"
+      "desc": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible.",
+      "thumbnail": "angie-viks/angie-viks.png",
+      "url": "https://main--boring-keller-0a156b.netlify.app/",
+      "gallery": [
+        "angie-viks/angie-viks-1.png",
+        "angie-viks/angie-viks-2.png",
+        "angie-viks/angie-viks-3.png"
+      ]
     },
     {
+      "id": "s343jkifgj3",
       "name": "Wazen Plus Insurance Portal",
       "type": "Web App",
       "domain": "Web App",
       "class": "web-app",
       "tech": "Angular, C#",
       "desc": "",
-      "image": "wazen.png",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard"
+      "thumbnail": "wazen.png",
+      "url": "https://wplusdev.aspnetdevelopment.in/wazen/",
+      "gallery": ["angie-viks/angie-viks-1.png"]
     },
     {
+      "id": "adf4sd32312d",
       "name": "GigDOT",
       "type": "Web App",
       "domain": "Web App",
       "class": "web-app",
       "tech": "Angular, Java, Spring boot",
       "desc": "",
-      "image": "",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard"
+      "thumbnail": "",
+      "url": "https://wplusdev.aspnetdevelopment.in/wazen/",
+      "gallery": ["angie-viks/angie-viks-1.png"]
     },
     {
+      "id": "hjg36g6g78hs",
       "name": "Webuy",
       "type": "Web App",
       "domain": "Web App",
       "class": "web-app",
       "tech": "Angular, Firebase",
-      "desc": "",
-      "image": "webuy.png",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard"
+      "desc": "Admin panel - https://webuy-admin.web.app/admin",
+      "thumbnail": "webuy/webuy.png",
+      "url": "https://webuy-804c5.web.app/webuy",
+      "gallery": ["webuy/webuy.png","webuy/webuy-1.png", "webuy/webuy-2.png", "webuy/webuy-3.png"]
     },
     {
+      "id": "lov9c87c622cc",
       "name": "Freesource",
       "type": "Web App",
       "domain": "Web App",
       "class": "web-app",
       "tech": "React, Nodejs, MongoDb",
       "desc": "",
-      "image": "",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard"
+      "thumbnail": "",
+      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard",
+      "gallery": ["angie-viks/angie-viks-1.png"]
     },
     {
+      "id": "vjr76sfs8dff",
+      "name": "Decra",
+      "type": "Mobile App",
+      "domain": "Web App",
+      "class": "mobile-app",
+      "tech": "Angular, Ionic, Python",
+      "desc": "",
+      "thumbnail": "decra/decra.png",
+      "url": "https://play.google.com/store/apps/details?id=com.view.decra",
+      "gallery": ["decra/decra.png","decra/decra-1.png","decra/decra-2.png","decra/decra-3.png"]
+    },
+    {
+      "id": "vjr76sfs8dff",
       "name": "IFeedback",
       "type": "Mobile App",
       "domain": "Web App",
       "class": "mobile-app",
       "tech": "Angular, Ionic, C#",
       "desc": "",
-      "image": "iFeedback.jpg",
-      "url": ""
+      "thumbnail": "iFeedback.jpg",
+      "url": "",
+      "gallery": ["angie-viks/angie-viks-1.png"]
     },
     {
+      "id": "g8hd8sfs-asd65",
       "name": "TIA",
       "type": "Mobile App",
       "domain": "Web App",
       "class": "mobile-app",
       "tech": "Ionic, Angular, C#, Azure",
       "desc": "",
-      "image": "tia.jpeg",
-      "url": ""
+      "thumbnail": "tia.jpeg",
+      "url": "",
+      "gallery": ["angie-viks/angie-viks-1.png"]
     },
     {
+      "id": "3k24j34jkgxzzz",
       "name": "ILearn",
       "type": "Mobile App",
       "domain": "Web App",
       "class": "mobile-app",
       "tech": "Ionic, Angular, C#",
       "desc": "",
-      "image": "",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard"
+      "thumbnail": "",
+      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard",
+      "gallery": ["angie-viks/angie-viks-1.png"]
     },
     {
+      "id": "bnc7bc8b7cxz",
       "name": "Deloitte India Event",
       "type": "Mobile App",
       "domain": "Web App",
       "class": "c-app",
       "tech": "Ionic, Angular, C#",
       "desc": "",
-      "image": "",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard"
+      "thumbnail": "",
+      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard",
+      "gallery": ["angie-viks/angie-viks-1.png"]
     },
     {
+      "id": "zxcz7cz7z9xcd",
       "name": "Track Truck",
       "type": "Mobile App",
       "domain": "Web App",
       "class": "mobile-app",
       "tech": "Ionic, Angular.js, C#",
       "desc": "",
-      "image": "",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard"
+      "thumbnail": "",
+      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard",
+      "gallery": ["angie-viks/angie-viks-1.png"]
     }
   ],
   "skills": [

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Portfolio = ({ data }) => {
   const [type, setType] = useState([]);
@@ -22,7 +23,6 @@ const Portfolio = ({ data }) => {
                 </li>
                 <li data-filter=".web-app">Web App</li>
                 <li data-filter=".mobile-app">Mobile App</li>
-                {/* <li data-filter=".filter-web">Web</li> */}
               </ul>
             </div>
           </div>
@@ -39,7 +39,7 @@ const Portfolio = ({ data }) => {
               >
                 <div className="portfolio-wrap">
                   <img
-                    src={`img/portfolio/${x.image}`}
+                    src={`img/portfolio/${x.thumbnail}`}
                     className="img-fluid"
                     alt={x.name}
                   />
@@ -47,22 +47,9 @@ const Portfolio = ({ data }) => {
                     <h4>{x.name}</h4>
                     <p>{x.tech}</p>
                     <div className="portfolio-links">
-                      {x.url && (
-                        <a href={x.url} target="_blank" title={x.name}>
-                          <i className="bx bx-link"></i>
-                        </a>
-                      )}
-                      {x.image && !x.url && (
-                        <a
-                          href={`img/portfolio/${x.image}`}
-                          target="_blank"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title={x.name}
-                        >
-                          <i className="bx bx-show"></i>
-                        </a>
-                      )}
+                      <Link to={`/details/${x.id}`}>
+                        <i className="bx bx-link"></i>
+                      </Link>
                     </div>
                   </div>
                 </div>

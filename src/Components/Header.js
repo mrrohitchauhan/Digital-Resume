@@ -25,18 +25,10 @@ const Header = ({ data }) => {
             Based in {city}. <span>{occupation}</span>. {description}
           </h2>
           <p className="scrolldown">
-            <a className="smoothscroll" href="#about">
+            <a className="smoothscroll scrollto" href="#about">
               <i className="bx bxs-chevron-down-circle"></i>
             </a>
           </p>
-          {/* <a
-            data-aos="fade-up"
-            data-aos-delay="200"
-            href="#about"
-            className="btn-get-started scrollto"
-          >
-            Get Started
-          </a> */}
         </div>
       </section>
       <header id="header" className="d-flex align-items-center">

@@ -17,9 +17,9 @@ const App = () => {
       .then((res) => res.json())
       .then((data) => {
         setResumeData(data);
-        const script = document.createElement("script");
 
-        script.src = "./js/main.js";
+        const script = document.createElement("script");
+        script.src = "/js/main.js";
         script.async = true;
 
         document.body.appendChild(script);
