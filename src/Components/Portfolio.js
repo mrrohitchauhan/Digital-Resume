@@ -5,6 +5,13 @@ const Portfolio = ({ data }) => {
   const [type, setType] = useState([]);
   useEffect(() => {
     data && setType([...new Set(data.map((data) => data.type))]);
+    setTimeout(() => {
+          
+      const script = document.createElement("script");
+      script.src = "/js/main.js";
+      script.async = true;
+      document.body.appendChild(script);
+    }, 100);
   }, [data]);
 
   return (
@@ -21,8 +28,8 @@ const Portfolio = ({ data }) => {
                 <li data-filter="*" className="filter-active">
                   All
                 </li>
-                <li data-filter=".web-app">Web App</li>
-                <li data-filter=".mobile-app">Mobile App</li>
+                {/* <li data-filter=".web-app">Web App</li>
+                <li data-filter=".mobile-app">Mobile App</li> */}
               </ul>
             </div>
           </div>
