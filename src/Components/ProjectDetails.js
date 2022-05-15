@@ -45,7 +45,7 @@ const ProjectDetails = () => {
                   <div className="swiper-wrapper align-items-center">
                     {portfolioData.gallery &&
                       portfolioData.gallery.map((x, i) => (
-                        <div className="swiper-slide">
+                        <div className="swiper-slide" key={i}>
                           <img
                             src={`/img/portfolio/${x}`}
                             alt={portfolioData.name}
@@ -66,7 +66,7 @@ const ProjectDetails = () => {
                       <strong>Domain</strong>: {portfolioData.domain}
                     </li>
                     <li>
-                      <strong>Client</strong>: ASU Company
+                      <strong>Client</strong>: {portfolioData.client}
                     </li>
                     <li>
                       <strong>Technologies</strong>: {portfolioData.tech}

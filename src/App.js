@@ -21,9 +21,7 @@ const App = () => {
         const script = document.createElement("script");
         script.src = "/js/main.js";
         script.async = true;
-        setInterval(() => {
-          document.body.appendChild(script);
-        }, 1000);
+        document.body.appendChild(script);
       });
   }, []);
 
@@ -44,3 +42,39 @@ const App = () => {
 };
 
 export default App;
+// {
+//   "id": "3k24j34jkgxzzz",
+//   "name": "ILearn",
+//   "type": "Mobile App",
+//   "domain": "Web App",
+//   "class": "mobile-app",
+//   "tech": "Ionic, Angular, C#",
+//   "desc": "Ilearn is a hybrid mobile application, this app is only used by Deloitte employees. This app help to take online test for trainee",
+//   "thumbnail": "unavailable.jpg",
+//   "url": "",
+//   "gallery": ["unavailable.jpg"]
+// },
+// {
+//   "id": "bnc7bc8b7cxz",
+//   "name": "Deloitte India Event",
+//   "type": "Mobile App",
+//   "domain": "Web App",
+//   "class": "c-app",
+//   "tech": "Ionic, Angular, C#",
+//   "desc": "Deloitte India Event is a hybrid mobile application, this app is only used by Deloitte employees. This app intimates them for there current past and upcoming Deloitte events according to their designation and location",
+//   "thumbnail": "unavailable.jpg",
+//   "url": "",
+//   "gallery": ["unavailable.jpg"]
+// },
+// {
+//   "id": "zxcz7cz7z9xcd",
+//   "name": "Track Truck",
+//   "type": "Mobile App",
+//   "domain": "Web App",
+//   "class": "mobile-app",
+//   "tech": "Ionic, Angular.js, C#",
+//   "desc": "Track Truck is hybrid mobile application for android platform. It is mainly for the customers who want to track his vehicle current status. It include modules like Sign Up as organization or individual, my orders, and tracking the status etc.",
+//   "thumbnail": "unavailable.jpg",
+//   "url": "",
+//   "gallery": ["unavailable.jpg"]
+// }

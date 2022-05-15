@@ -58,9 +58,10 @@
       "id": "23dseifj234",
       "name": "Angie & Viks",
       "type": "Web App",
-      "domain": "Web App",
+      "domain": "Ecommerce",
       "class": "web-app",
       "tech": "Next.js, Node.js, MongoDB",
+      "client":"Preveen Consultancy Services",
       "desc": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible.",
       "thumbnail": "angie-viks/angie-viks.png",
       "url": "https://main--boring-keller-0a156b.netlify.app/",
@@ -74,121 +75,106 @@
       "id": "s343jkifgj3",
       "name": "Wazen Plus Insurance Portal",
       "type": "Web App",
-      "domain": "Web App",
+      "domain": "Ecommerce",
       "class": "web-app",
+      "client":"Neosoft Technologies",
       "tech": "Angular, C#",
       "desc": "",
-      "thumbnail": "wazen.png",
+      "thumbnail": "wazen/wazen.png",
       "url": "https://wplusdev.aspnetdevelopment.in/wazen/",
-      "gallery": ["angie-viks/angie-viks-1.png"]
-    },
-    {
-      "id": "adf4sd32312d",
-      "name": "GigDOT",
-      "type": "Web App",
-      "domain": "Web App",
-      "class": "web-app",
-      "tech": "Angular, Java, Spring boot",
-      "desc": "",
-      "thumbnail": "",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/",
-      "gallery": ["angie-viks/angie-viks-1.png"]
+      "gallery": ["wazen/wazen.png", "wazen/wazen-1.png", "wazen/wazen-2.png"]
     },
     {
       "id": "hjg36g6g78hs",
       "name": "Webuy",
       "type": "Web App",
-      "domain": "Web App",
+      "domain": "Ecommerce",
       "class": "web-app",
       "tech": "Angular, Firebase",
+      "client":"Engineering Students",
       "desc": "Admin panel - https://webuy-admin.web.app/admin",
       "thumbnail": "webuy/webuy.png",
       "url": "https://webuy-804c5.web.app/webuy",
-      "gallery": ["webuy/webuy.png","webuy/webuy-1.png", "webuy/webuy-2.png", "webuy/webuy-3.png"]
+      "gallery": [
+        "webuy/webuy.png",
+        "webuy/webuy-1.png",
+        "webuy/webuy-2.png",
+        "webuy/webuy-3.png"
+      ]
+    },
+    {
+      "id": "adf4sd32312d",
+      "name": "GigDOT",
+      "type": "Web App",
+      "domain": "Careers",
+      "class": "web-app",
+      "client":"Deloitte",
+      "tech": "Angular, Java, Spring boot",
+      "desc": "GigDOT is a web application develop on Angular 8 and Java, it includes job finding modules where managers will post the job as per there requirement and a candidate portal was also included in it which is access by the people and can apply jobs.",
+      "thumbnail": "unavailable.jpg",
+      "url": "",
+      "gallery": ["unavailable.jpg"]
     },
     {
       "id": "lov9c87c622cc",
       "name": "Freesource",
       "type": "Web App",
-      "domain": "Web App",
+      "domain": "Personal learning",
       "class": "web-app",
+      "client":"-",
       "tech": "React, Nodejs, MongoDb",
       "desc": "",
-      "thumbnail": "",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard",
-      "gallery": ["angie-viks/angie-viks-1.png"]
+      "thumbnail": "unavailable.jpg",
+      "url": "http://free-source.netlify.app/",
+      "gallery": ["unavailable.jpg"]
     },
     {
       "id": "vjr76sfs8dff",
       "name": "Decra",
       "type": "Mobile App",
-      "domain": "Web App",
+      "domain": "Finance",
       "class": "mobile-app",
+      "client":"Arabian Delights",
       "tech": "Angular, Ionic, Python",
-      "desc": "",
+      "desc": "Debit Credit Analytics. Take a step towards controlling your business finances. Preventing leakage due to manual order punching. Auto reconciliation of actual sales to payment receipts from aggregators. Deep analysis of periodic sales. One-stop shop for all restauranter needs. Sales analysis - Get a break-up of different aggregators. Daily analysis - Get a view of how much amount will be received",
       "thumbnail": "decra/decra.png",
       "url": "https://play.google.com/store/apps/details?id=com.view.decra",
-      "gallery": ["decra/decra.png","decra/decra-1.png","decra/decra-2.png","decra/decra-3.png"]
+      "gallery": [
+        "decra/decra.png",
+        "decra/decra-1.png",
+        "decra/decra-2.png",
+        "decra/decra-3.png"
+      ]
     },
     {
-      "id": "vjr76sfs8dff",
+      "id": "hk23h42341",
       "name": "IFeedback",
       "type": "Mobile App",
-      "domain": "Web App",
+      "domain": "Solutions",
       "class": "mobile-app",
+      "client":"Preveen Consultancy Services",
       "tech": "Angular, Ionic, C#",
-      "desc": "",
-      "thumbnail": "iFeedback.jpg",
+      "desc": "iFeedback app was made for a client in gurgaon in pandemic for contactless feedback.",
+      "thumbnail": "ifeedback/iFeedback.jpg",
       "url": "",
-      "gallery": ["angie-viks/angie-viks-1.png"]
+      "gallery": [
+        "ifeedback/iFeedback.jpg",
+        "ifeedback/iFeedback-1.jpg",
+        "ifeedback/iFeedback-2.jpg"
+      ]
     },
     {
       "id": "g8hd8sfs-asd65",
       "name": "TIA",
-      "type": "Mobile App",
+      "type": "Enterpries",
       "domain": "Web App",
+      "client":"Deloitte",
       "class": "mobile-app",
       "tech": "Ionic, Angular, C#, Azure",
-      "desc": "",
-      "thumbnail": "tia.jpeg",
+      "desc": "TIA is a hybrid mobile application developed for deloitte users, so they can get direct help from our application that is a TIA BOT.",
+      "thumbnail": "tia/tia.jpeg",
       "url": "",
-      "gallery": ["angie-viks/angie-viks-1.png"]
-    },
-    {
-      "id": "3k24j34jkgxzzz",
-      "name": "ILearn",
-      "type": "Mobile App",
-      "domain": "Web App",
-      "class": "mobile-app",
-      "tech": "Ionic, Angular, C#",
-      "desc": "",
-      "thumbnail": "",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard",
-      "gallery": ["angie-viks/angie-viks-1.png"]
-    },
-    {
-      "id": "bnc7bc8b7cxz",
-      "name": "Deloitte India Event",
-      "type": "Mobile App",
-      "domain": "Web App",
-      "class": "c-app",
-      "tech": "Ionic, Angular, C#",
-      "desc": "",
-      "thumbnail": "",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard",
-      "gallery": ["angie-viks/angie-viks-1.png"]
-    },
-    {
-      "id": "zxcz7cz7z9xcd",
-      "name": "Track Truck",
-      "type": "Mobile App",
-      "domain": "Web App",
-      "class": "mobile-app",
-      "tech": "Ionic, Angular.js, C#",
-      "desc": "",
-      "thumbnail": "",
-      "url": "https://wplusdev.aspnetdevelopment.in/wazen/dashboard",
-      "gallery": ["angie-viks/angie-viks-1.png"]
+      "gallery": ["tia/tia.jpeg", "tia/tia-1.jpeg", "tia/tia-2.jpeg"]
     }
   ],
   "skills": [

@@ -15,7 +15,7 @@ const Portfolio = ({ data }) => {
             <h2>Portfolio</h2>
             <p>CHECK OUT SOME OF MY WORKS</p>
           </div>
-          <div className="row" data-aos="fade-up" data-aos-delay="200">
+          <div className="row" data-aos="fade-up">
             <div className="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
                 <li data-filter="*" className="filter-active">
