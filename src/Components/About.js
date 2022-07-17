@@ -50,7 +50,8 @@ const About = ({ data }) => {
             {data && (
               <div className="social-links" data-aos="fade-down">
                 {data.social.map((x, i) => (
-                  <a href={x.url} className={x.name} key={i}>
+                  // eslint-disable-next-line react/jsx-no-target-blank
+                  <a href={x.url} className={x.name} key={i} target="_blank">
                     <i className={x.class}></i>
                   </a>
                 ))}
